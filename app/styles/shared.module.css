@@ -816,6 +816,8 @@
 .navButton {
   padding: 10px 20px;
   border-radius: 10px;
+  width: 60px;
+  hight: 20px;
   writing-mode: horizontal-tb;
   font-size: 18px;
   border: none;
