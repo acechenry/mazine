@@ -84,6 +84,9 @@
 
 .nav {
   display: flex;
+  flex-wrap: wrap;    
+  justify-content: flex-start; 
+  min-height: 50px; 
   align-items: center;
   gap: 20px;
 }
