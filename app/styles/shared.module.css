@@ -45,7 +45,7 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
+  min-height: 60px;
   backdrop-filter: blur(12px);
   background: var(--card-bg);
   z-index: 50;
@@ -432,6 +432,7 @@
   padding: 6px 12px;  /* 减小内边距 */
   border: 2px solid var(--border-color);
   border-radius: 10px;  /* 稍微减小圆角 */
+  writing-mode: vertical-lr;
   font-size: 14px;    /* 减小字体大小 */
   cursor: pointer;
   transition: all 0.2s;
@@ -542,6 +543,7 @@
 
 .dateTitle {
   font-size: 28px;
+  writing-mode: vertical-lr;
   font-weight: 800;
   color: var(--text-primary);
   padding: 12px 0;
@@ -814,6 +816,7 @@
 .navButton {
   padding: 10px 20px;
   border-radius: 10px;
+  writing-mode: vertical-lr;
   font-size: 18px;
   border: none;
   cursor: pointer;
@@ -828,12 +831,14 @@
 .navButtonActive {
   background: #3b83f6;
   color: var(--white);
+  writing-mode: vertical-lr;
   font-weight: 700;
 }
 
 /* 导航中的退出按钮 */
 .navButtonLogout {
   padding: 10px 20px;
+  writing-mode: vertical-lr;
   border-radius: 10px;
   font-size: 18px;
   border: none;
