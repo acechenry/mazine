@@ -5,6 +5,9 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    screens: {
+      'md': '768px',
+    },
     extend: {
       fontFamily: {
         sans: [
@@ -17,9 +20,6 @@ module.exports = {
           'sans-serif'
         ],
       },
-      screens: {
-        'md': '768px',
-      }
     },
   },
   plugins: [],
