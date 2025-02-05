@@ -1317,17 +1317,12 @@
   font-size: 14px;
   color: var(--text-secondary);
   font-weight: normal;
-  margin-left: 16px;  /* 增加与主标题的距离 */
+  margin-left: 16px;
   position: relative;
   animation: subtitleFloat 3s ease-in-out infinite;
 }
+
 @keyframes subtitleFloat {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-3px);
-  }
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
 }
-
-
