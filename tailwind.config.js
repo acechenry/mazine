@@ -17,6 +17,9 @@ module.exports = {
           'sans-serif'
         ],
       },
+      screens: {
+        'md': '768px',
+      }
     },
   },
   plugins: [],
