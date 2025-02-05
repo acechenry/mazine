@@ -95,11 +95,11 @@ export function Header({ currentPage, isDarkMode, onThemeToggle, onLogout }: Hea
           />
           <div className={styles.titleGroup}>
             <h1 className={styles.title}>Mazine</h1>
-            <span className={styles.subtitle}>
+            <div className={`${styles.subtitle} max-md:hidden`}>
               {process.env.NEXT_PUBLIC_LANGUAGE?.toLowerCase() === 'en' 
                 ? 'Where Amazing Meets Every spark'
                 : '惊喜在每一丝灵感中相遇'}
-            </span>
+            </div>
           </div>
         </div>
         
